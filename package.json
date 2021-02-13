@@ -1,0 +1,20 @@
+{
+  "name": "cdk-proxy-bug",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-proxy-bug": "bin/cdk-proxy-bug.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.89.0",
+    "aws-cdk": "1.89.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "1.89.0",
+    "@aws-cdk/aws-lambda": "1.89.0",
+    "@aws-cdk/core": "1.89.0"
+  }
+}
